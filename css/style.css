@@ -1,0 +1,148 @@
+body{
+    width: 1900px;
+    margin: 0 auto;
+    font-family:'Open Sans', sans-serif, Courier;
+}
+
+/*header*/
+
+.navbar{
+    background: #1D2124;
+    display: flex;
+}
+.link-logo{
+    display: block;
+    height: 70px;
+}
+.link-logo>:first-child{
+    height: 70px;
+}
+.nav{
+    align-self: center;
+    flex-grow: 1;
+}
+.main-menu{
+    justify-content: center;
+    display: flex;
+}
+.main-menu>:first-child{
+    padding-left: 0;
+}
+.main-menu li{
+    font-weight: 600;
+    padding-left: 37px;   
+}
+.main-menu-link{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.search{
+    display: flex;
+    background: #171A1C;
+    color: #fff;
+}
+.link-search{
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+/*container1*/
+
+.header{
+    height: 375px;
+    background-image:linear-gradient( rgba(46, 41, 41, 0.5), rgba(48, 42, 42, 0.5) ), url('../img/header-bg.jpeg');
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    /* background-position: 0 -550px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-title{
+    color: #fff;
+    font-size: 27px;
+    padding-bottom: 44px;
+}
+.header-btn{
+    display: flex;
+    width: 360px;
+    justify-content: space-between;
+}
+.btn-link{
+    width: 170px;
+    height: 55px;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 170px;
+    height: 55px;
+    border-radius: 4px;
+}
+.btn-green{
+    background: #89CA62;
+}
+.btn-blue{
+    background: #14B9D5;
+}
+
+/*section2*/
+.container-posts{
+    height: 1030px;
+    background: #F2F2F2;
+}
+.container-title{
+    text-align: center;
+    padding-top: 61px;
+    padding-bottom: 52px;
+    color: #18B4CF;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.wrap-flex{
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.wrap-post>:nth-child(1)>:nth-child(1){
+    margin-bottom: 32px;
+}
+.post{
+    width: 370px;
+    background: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+.post2, .post6{
+    height: 441px;
+}
+.post1, .post4{
+    height: 320px;
+}
+.post3{
+    height: 355px;
+}
+.post5{
+    height: 309px;
+}
+.post-text{
+    padding: 22px 0;
+    font-size: 18px;
+}
